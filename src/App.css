@@ -1,0 +1,28 @@
+*::after,
+*::before,
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(51, 51, 51);
+
+}
+
+body {
+  margin: 0;
+}
+
+.d-flex {
+  display: flex;
+}
+
+
+.opacity-0 {
+  transition: .3s;
+  opacity: 0;
+}
+
+.opacity-1 {
+  transition: .3s;
+  opacity: 1;
+}
